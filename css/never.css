@@ -1,0 +1,63 @@
+.never__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.never__title{
+    font-family: 'Readex Pro';
+font-weight: 400;
+font-size: 42px;
+line-height: 125%;
+text-align: center;
+color: #000;
+}
+.never__description{
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+color: #000;
+}
+.never__input-name{
+    background: #dce5e2;
+    border: 1px solid #000;
+border-radius: 54px 0 0 54px;
+width: 285px;
+height: 50px;
+}
+.never__btn{
+    background: #000;
+    border-radius: 0 200px 200px 0;
+    width: 115px;
+    height: 50px; 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #dad7d7;
+}
+.never__content{
+    margin-top: 61px;
+    display: flex;
+        border-radius: 16px;
+    height: 450px;
+    background: #dce5e2;
+    align-items: center;
+    justify-content: center;
+}
+.never__wrap{
+    padding-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:1370px){
+   .never__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

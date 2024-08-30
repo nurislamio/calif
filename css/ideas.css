@@ -1,0 +1,65 @@
+.ideas__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.ideas__img{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.ideas__img img{
+    transition: 1s;
+}
+.ideas__img img:hover{
+    transform: scale(1.2)
+    ;
+}
+.ideas__text{
+font-family: 'Inter';
+font-weight: 400;
+font-size: 24px;
+line-height: 125%;
+color: #000;
+ display: flex;
+flex-direction: column;
+}
+.ideas__list{
+    margin-top: 20px;
+    list-style: none;
+}
+.nav__see{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.ideas__title{
+    font-family: 'Readex Pro';
+font-weight: 400;
+font-size: 42px;
+line-height: 125%;
+text-align: center;
+color: #000;
+}
+.see__text{
+    font-family:'Inter';
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+text-transform: capitalize;
+color: #000;
+}
+@media(max-width:1370px){
+    .ideas__img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:1370px){
+    .ideas__text{
+        justify-content: space-between;
+    }
+}
